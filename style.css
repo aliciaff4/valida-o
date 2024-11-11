@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(https://blog.experimentebegin.com.br/wp-content/uploads/2023/12/calculo-de-bebidas-para-festa-65451b0a2bb671.webp); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 900px; */
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #946b4f;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #9b8b57;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1em;
+    color: #b66464;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #8b6363;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: #c78a61;
+    outline: none;
+}
+
+button {
+    background-color: #663616;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c2966d;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 65px;
+    background-color: #8d8787;
+    color: #000000;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+}
+
+h3{
+    text-align: center;
+    color: #866048;
+}

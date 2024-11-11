@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Idade</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>CocktailHouse</h1>
+        <h2>A IDADE DA CH SEMPRE FOI UM MISTÉRIO. AINDA BEM QUE A SUA NAO É.</h2>
+        <p>Insira a sua idade:</p>
+        <input type="number" name="" id="idadeInput">
+        <button onclick="verificarIdade()">Verificar</button>
+    </div>
+    
+    <h3>Beba com moderação</h3>
+    <p>Brinde à vida, aos amigos, ao prazer. Na CH temos as melhores opções para quem sabe o que quer. Entre no clima da festa, na sua casa ou no seu bar favorito.</p>
+
+    <script>
+        function verificarIdade(){
+            const idade = parseInt (document.getElementById("idadeInput").value)
+
+            if (idade >= 18){
+
+                window.location.href = "permitido.html"
+
+            } else{
+                window.location.href = "npermitido.html"
+            }
+        }
+
+    </script>
+
+    <footer>&copy; Todos os direitos reservados para CocktailHouse</footer>
+</body>
+</html>
